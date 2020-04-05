@@ -1,4 +1,5 @@
 === Version Compare ===
+
 Contributors: bake
 Tags: plugins, updates
 Requires at least: 5.0

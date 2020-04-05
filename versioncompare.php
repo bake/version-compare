@@ -4,7 +4,7 @@
  * Plugin Name: Version Compare
  * Plugin URI: https://github.com/bake/versioncompare/
  * Description: Show version informations in the plugin overview.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: bake
  * Author URI: https://github.com/bake/
  * License: GPLv2 or later
@@ -79,7 +79,6 @@ add_filter('plugin_row_meta', function (
   $new_transient =
     "versioncompare_{$plugin_file}_{$plugin_data['new_version']}";
   $new = get_transient($new_transient);
-  $new = false;
   if ($new === false) {
     // We could use plugin_api() to request meta data about a plugin and get the
     // bonus of being able to call is_wp_error() of the response, but using
