@@ -25,11 +25,11 @@ function format(
     $plugin_version,
     $wordpress_version,
   ]);
-  return <<<HTML
-    <span title="{$title}">
+  return "
+    <span title=\"{$title}\">
       {$wordpress_version}
     </span>
-  HTML;
+  ";
 }
 
 add_filter('plugin_row_meta', function (
