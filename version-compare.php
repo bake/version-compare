@@ -4,7 +4,7 @@
  * Plugin Name: Version Compare
  * Plugin URI: https://github.com/bake/versioncompare/
  * Description: Show version informations in the plugin overview.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: bake
  * Author URI: https://github.com/bake/
  * License: GPLv2 or later
