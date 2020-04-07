@@ -1,11 +1,11 @@
-=== Version Compare ===
+=== Plugin Version Compare ===
 
-Contributors: bake
+Contributors: bakemon
 Tags: plugins, updates
 Requires at least: 5.0
 Tested up to: 5.4
 Requires PHP: 7.0
-Stable tag: 1.0.2
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ with as well as the versions available updates support.
 
 == Frequently Asked Questions ==
 
-= Why does a plugin does not show any versions? =
+= Why does a plugin not show any versions? =
 To be able to determin available versions, this plugin relies the standard
 format of a [`readme.txt`](https://wordpress.org/plugins/readme.txt) Make sure
 that your plugin has a `readme.txt` and is available through WordPress' SVN.
@@ -33,6 +33,6 @@ Please feel free to contribute on the
 1. A possible update and its version of WordPress it was tested with.
 
 == Changelog ==
- 
-= 1.0 =
+
+= 1.0.0 =
 * Initial release.

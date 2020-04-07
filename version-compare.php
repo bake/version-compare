@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Plugin Name: Version Compare
+ * Plugin Name: Plugin Version Compare
  * Plugin URI: https://github.com/bake/versioncompare/
  * Description: Show version informations in the plugin overview.
- * Version: 1.0.2
- * Author: bake
+ * Version: 1.0.4
+ * Author: bakemon
  * Author URI: https://github.com/bake/
  * License: GPLv2 or later
  * Text Domain: versioncompare
@@ -13,16 +13,15 @@
 
 namespace VersionCompare;
 
-const textdomain = 'versioncompare';
-
 function format(
   string $plugin_name,
   string $plugin_version,
   string $wordpress_version
 ): string {
-  $title = vsprintf(__('%s %s is compatible with WordPress %s.', textdomain), [
+  $title = vsprintf(__('%s %s is compatible with %s %s.', 'versioncompare'), [
     $plugin_name,
     $plugin_version,
+    'WordPress',
     $wordpress_version,
   ]);
   return "
